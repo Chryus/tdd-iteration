@@ -6,9 +6,10 @@ describe "#square array solution" do
     expect(maximum([1,3,5])).to be_a(Array)
   end
 
-  # it "returns an array" do
-  #  expect(square_array([1,3,5])).to be_a(Array)
-  #end
+     it "returns an array with the squares of some array" do
+    expect(maximum([1,3,5])).to be_a(Array)
+  end
+
 
 
 end

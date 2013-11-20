@@ -6,7 +6,7 @@ describe "#maximum" do
     expect(maximum([1,3,5])).to be_a(Integer)
   end
 
-  it "returns the maximum number from an array" do
+  it "returns the max number from an array" do
   	expect(maximum([1,3,5])).to eq(5)
   end
 
